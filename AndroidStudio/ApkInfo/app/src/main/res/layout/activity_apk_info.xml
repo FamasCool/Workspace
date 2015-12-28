@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.qty.apkinfo.activity.ApkInfoActivity">
+
+    <Button
+        android:id="@+id/all_apks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/all_apks_title"/>
+
+    <Button
+        android:id="@+id/all_activities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/all_activities_title"/>
+
+    <Button
+        android:id="@+id/all_services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/all_services_title"/>
+
+    <Button
+        android:id="@+id/all_broadcasts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/all_broadcasts_title"/>
+
+    <Button
+        android:id="@+id/all_providers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/all_providers_title"/>
+
+    <Button
+        android:id="@+id/query_apk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/query_apk_title"/>
+
+    <Button
+        android:id="@+id/query_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/query_activity_title"/>
+
+    <Button
+        android:id="@+id/query_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/query_service_title"/>
+
+    <Button
+        android:id="@+id/query_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/query_broadcast_title"/>
+
+    <Button
+        android:id="@+id/query_provider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/query_provider_title"/>
+
+</LinearLayout>
