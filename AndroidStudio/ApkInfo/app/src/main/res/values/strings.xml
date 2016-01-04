@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ApkInfo</string>
+    <string name="all_apks_title">All apks</string>
+    <string name="all_activities_title">All activities</string>
+    <string name="all_services_title">All services</string>
+    <string name="all_broadcasts_title">All broadcasts</string>
+    <string name="all_providers_title">All providers</string>
+    <string name="query_apk_title">Query apk</string>
+    <string name="query_activity_title">Query activity</string>
+    <string name="query_service_title">Query service</string>
+    <string name="query_broadcast_title">Query broadcast</string>
+    <string name="query_provider_title">Query provider</string>
+</resources>
