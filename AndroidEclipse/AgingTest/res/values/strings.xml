@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AgingTest</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="action_connection">Connection server</string>
+	<string name="vibration_test_on">Vibration test on</string>
+	<string name="vibration_test_off">Vibration test off</string>
+	<string name="speaker_test_on">Speaker test on</string>
+	<string name="speaker_test_off">Speaker test off</string>
+	<string name="earpiece_test_on">Earpiece test on</string>
+	<string name="earpiece_test_off">Earpiece test off</string>
+	
+</resources>
