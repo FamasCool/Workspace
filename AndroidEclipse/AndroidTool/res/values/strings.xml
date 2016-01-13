@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">SystemApp</string>
+    
+    <string name="state_title">State</string>
+    <string name="more">More</string>
+    <string name="cpu_title">CPU</string>
+    <string name="memory_title">Memory</string>
+    <string name="storage_title">Storage</string>
+    <string name="lcd_title">Screen</string>
+    <string name="camera_title">Camera</string>
+    <string name="other_title">Other</string>
+    <string name="param_reset_factory_title">Factory Reset</string>
+    <string name="camera_reset_factory_title">Restore factory value Camera</string>
+    <string name="other_reset_factory_title">Restore factory value Other</string>
+    <string name="lcd_reset_factory_title">Restore factory value Lcd</string>
+    <string name="cpu_reset_factory_title">Restore factory value CPU</string>
+    <string name="memory_reset_factory_title">Restore factory value Memory</string>
+    <string name="storage_reset_factory_title">Restore factory value Storage</string>
+    
+	<string name="cpu_type_label">Type:</string>
+	<string name="cpu_core_label">Core:</string>
+    <string name="cpu_min_freq_label">Min frequency(MHz):</string>
+    <string name="cpu_max_freq_label">Max frequency(MHz):</string>
+    <string name="cpu_type_not_allow_empty">Type can not be empty</string>
+    <string name="cpu_core_not_allow_empty">Core can not be empty</string>
+    <string name="cpu_core_not_a_number">Core values not a number</string>
+    <string name="cpu_core_value_limit">Core values should be one of <xliff:g id="limit">%s</xliff:g></string>
+    <string name="cpu_max_freq_not_allow_empty">Maximum frequency can not be empty</string>
+    <string name="cpu_max_freq_not_a_number">Maximum frequency not a number</string>
+    <string name="cpu_max_freq_value_limit">The highest frequency should be greater than or equal to <xliff:g id="min">%d</xliff:g></string>
+    <string name="cpu_min_freq_not_allow_empty">The lowest frequency can not be empty</string>
+    <string name="cpu_min_freq_not_a_number">The lowest frequency not a number</string>
+    <string name="cpu_min_freq_value_limit">The lowest frequency must be less than the maximum frequency</string>
+    <string name="cpu_type_title">Type</string>
+    <string name="cpu_core_title">Core</string>
+    <string name="cpu_min_freq_title">Min freq</string>
+    <string name="cpu_max_freq_title">Max freq</string>
+    
+    <string name="lcd_height_label">Height(Pixel):</string>
+    <string name="lcd_width_label">Width(Pixel):</string>
+    <string name="lcd_dpi_label">Density(dpi):</string>
+    <string name="screen_height_title">Height</string>
+    <string name="screen_width_title">Width</string>
+    <string name="screen_dpi_title">Density</string>
+    <string name="lcd_width_not_allow_empty">Width can not be empty</string>
+    <string name="lcd_width_not_a_number">Width not a number</string>
+    <string name="lcd_width_value_limit">Width should be greater than or equal to <xliff:g id="min">%d</xliff:g> less than or equal to <xliff:g id="max">%d</xliff:g> </string>
+    <string name="lcd_height_not_allow_empty">Height can not be empty</string>
+    <string name="lcd_height_not_a_number">Height not a number</string>
+    <string name="lcd_height_value_limit">Height should be greater than or equal to <xliff:g id="min">%d</xliff:g> less than or equal to <xliff:g id="max">%d</xliff:g></string>
+    <string name="lcd_density_not_allow_empty">Density can not be empty</string>
+    <string name="lcd_density_not_a_number">Density not a number</string>
+    <string name="lcd_density_value_limit">Density should be greater than or equal to <xliff:g id="min">%d</xliff:g> less than or equal to <xliff:g id="max">%d</xliff:g></string>
+    
+    <string name="max_ram_title">Max RAM</string>
+    <string name="min_ram_title">Min RAM</string>
+    <string name="memory_max_ram_label">Max RAM(MB):</string>
+    <string name="memory_min_ram_label">Min RAM(MB)</string>
+    <string name="memory_max_ram_not_allow_empty">Max RAM can not be empty</string>
+    <string name="memory_max_ram_not_a_number">Max RAM value not a number</string>
+    <string name="memory_max_ram_limit">Max RAM must be greater than <xliff:g id="min">%d</xliff:g> less than <xliff:g id="max">%d</xliff:g></string>
+    <string name="memory_max_ram_gb_limit">Max RAM  must be a multiple of 1024 greater than 1GB</string>
+    <string name="memory_min_ram_not_allow_empty">Min RAM can not be empty</string>
+    <string name="memory_min_ram_not_a_number">Min RAM value not a number</string>
+    <string name="memory_min_ram_value_limit">Min RAM must be less than or equal to half the max RAM</string>
+    <string name="memory_min_ram_gb_limit">Min RAM must be a multiple of 1024 greater than 1GB</string>
+    
+    <string name="storage_user_data_label">System storage(GB):</string>
+    <string name="storage_internal_storage_label">Internal storage(GB):</string>
+    <string name="storage_system_data_title">System storage</string>
+    <string name="storage_internal_data_title">Internal storage</string>
+    <string name="system_storage_not_allow_empty">System storage can not be empty</string>
+    <string name="system_storage_not_a_number">System storage value not a number</string>
+    <string name="system_storage_value_limit">System storage must be greater than <xliff:g id="min">%d</xliff:g> and less than equal to <xliff:g id="max">%d</xliff:g></string>
+    <string name="internal_storage_not_allow_empty">Internal storage can not be empty</string>
+    <string name="internal_storage_not_a_number">Internal storage value not a number</string>
+    <string name="internal_storage_value_limit">Internal storage value must be greater than <xliff:g id="min">%d</xliff:g> and less than equal to <xliff:g id="max">%d</xliff:g></string>
+    
+    <string name="camera_front_pixel_title">Front camera pixel</string>
+    <string name="camera_back_pixel_title">Back camera pixel</string>
+    <string name="camera_video_quality">Video quality</string>
+    <string name="camera_front_pixel_label">Front camera pixel(Megapixel):</string>
+    <string name="camera_back_pixel_label">Back camera pixel(Megapixel):</string>
+    <string name="camera_video_fps_label">Video quality(P):</string>
+    <string name="camera_front_not_allow_empty">Front camera pixel can not be empty</string>
+    <string name="camera_front_not_a_number">Front camera pixel not a number</string>
+    <string name="camera_front_value_limit">Front camera pixel value should be between <xliff:g id="min">%d</xliff:g> to <xliff:g id="max">%d</xliff:g></string>
+    <string name="camera_back_not_allow_empty">Back camera pixel can not be empty</string>
+    <string name="camera_back_not_a_number">Back camera pixel not a number</string>
+    <string name="camera_back_value_limit">Back camera pixel value should be between <xliff:g id="min">%d</xliff:g> to <xliff:g id="max">%d</xliff:g></string>
+    <string name="camera_video_not_allow_empty">Video quality can not be empty</string>
+    <string name="camera_video_not_a_number">Video quality not a number</string>
+    <string name="camera_video_value_limit">Video quality value should be between <xliff:g id="min">%d</xliff:g> to <xliff:g id="max">%d</xliff:g></string>
+	
+    <string name="other_support_sensor_label">Support all sensor:</string>
+    <string name="other_support_root_label">Support root:</string>
+    <string name="other_score_label">Benchmark:</string>
+    <string name="other_score_title">Benchmark</string>
+    <string name="other_root_title">Support root</string>
+    <string name="other_sensor_title">Support all sensor</string>
+    <string name="other_benchmark_not_allow_empty">Benchmark can not be empty</string>
+    <string name="other_benchmark_not_a_number">Benchmark not a number</string>
+    <string name="other_benchmark_value_limit">Benchmark value should be between <xliff:g id="min">%d</xliff:g> to <xliff:g id="max">%d</xliff:g></string>
+    
+    
+</resources>

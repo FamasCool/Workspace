@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/settings_adapter_item_padding_bottom"
+    android:paddingTop="@dimen/settings_adapter_item_padding_top" >
+
+    <ImageView
+        android:id="@+id/other_logo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/other_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/settings_adapter_item_text_size" />
+
+    <TextView
+        android:id="@+id/other_root"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/settings_adapter_item_text_size" />
+
+    <TextView
+        android:id="@+id/other_sensor"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/settings_adapter_item_text_size" />
+
+    <ImageView
+        android:id="@+id/other_state"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="12sp" />
+
+</LinearLayout>

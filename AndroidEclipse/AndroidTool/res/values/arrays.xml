@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="param_settings_titles" translatable="false">
+        <item>@string/cpu_title</item>
+        <item>@string/memory_title</item>
+        <item>@string/storage_title</item>
+        <item>@string/lcd_title</item>
+        <item>@string/camera_title</item>
+        <item>@string/other_title</item>
+    </string-array>
+    
+    <array name="param_settings_icons" translatable="false">
+		<item>@drawable/ic_cpu</item>
+		<item>@drawable/ic_memory</item>
+		<item>@drawable/ic_storage</item>
+		<item>@drawable/ic_screen</item>
+		<item>@drawable/ic_camera</item>
+		<item>@drawable/ic_other</item>
+    </array>
+    
+    <!-- 1: type 2:core 3: min freq 4: max freq -->
+    <string-array name="cpu_settings">
+        <item>"MTK6582;4;1000;1500</item>
+        <item>"MTK6580;4;1000;1500"</item>
+        <item>"MTK6595;8;1500;2300"</item>
+        <item>"MTK6592;8;1500;2300"</item>
+        <item>"MTK6735;4;1000;1500"</item>
+        <item>"MTK6595;8;1000;2000"</item>
+        <item>"MTK6592;8;1000;2500"</item>
+    </string-array>
+    
+    <!-- 1: min ram 2: max ram -->
+    <string-array name="memory_settings">
+        <item>"512 MB;1 GB"</item>
+        <item>"1 GB;2 GB"</item>
+        <item>"1 GB;3 GB"</item>
+        <item>"2 GB;4 GB"</item>
+        <item>"2 GB;6 GB"</item>
+        <item>"3 GB;8 GB"</item>
+    </string-array>
+    
+    <!-- 1: system storage 2: internal storage -->
+    <string-array name="storage_settings">
+        <item>"2 GB;4 GB"</item>
+        <item>"4 GB;4 GB"</item>
+        <item>"2 GB;8 GB"</item>
+        <item>"4 GB;8 GB"</item>
+        <item>"8 GB;8 GB"</item>
+        <item>"2 GB;16 GB"</item>
+        <item>"4 GB;16 GB"</item>
+        <item>"8 GB;16 GB"</item>
+        <item>"16 GB;16 GB"</item>
+        <item>"8 GB;32 GB"</item>
+        <item>"16 GB;32 GB"</item>
+        <item>"32 GB;32 GB"</item>
+        <item>"32 GB;64 GB"</item>
+        <item>"64 GB;64 GB"</item>
+        <item>"64 GB;128 GB"</item>
+        <item>"128 GB;128 GB"</item>
+        <item>"128 GB;256 GB"</item>
+        <item>"256 GB;256 GB"</item>
+        <item>"256 GB;512 GB"</item>
+        <item>"512 GB;512 GB"</item>
+        <item>"512 GB;1024 GB"</item>
+        <item>"1024 GB;1024 GB"</item>
+    </string-array>
+    
+    <!-- 1: width 2: height 3: density -->
+    <string-array name="lcd_settings">
+        <item>"540;960;240"</item>
+        <item>"960;1080;320"</item>
+        <item>"720;1280;320"</item>
+        <item>"1080;1920;480"</item>
+        <item>"1080;2048;480"</item>
+        <item>"1440;2560;480"</item>
+    </string-array>
+    
+    <!-- 1: front camera pixel 2: back camera pixel 3: video quality -->
+    <string-array name="camera_settings">
+        <item>"130;500;720"</item>
+        <item>"200;800;720"</item>
+        <item>"300;800;720"</item>
+        <item>"500;800;720"</item>
+        <item>"300;1300;720"</item>
+        <item>"500;1300;720"</item>
+        <item>"500;1600;1080"</item>
+        <item>"800;1600;1080"</item>
+        <item>"1300;1800;1080"</item>
+        <item>"800;2100;1080"</item>
+        <item>"500;2600;1080"</item>
+        <item>"800;2600;1080"</item>
+        <item>"800;3200;2048"</item>
+        <item>"1300;3200;2048"</item>
+        <item>"800;3600;2048"</item>
+        <item>"1300;3600;2048"</item>
+        <item>"800;4100;2048"</item>
+        <item>"1300;4100;2048"</item>
+        <item>"2100;4100;2048"</item>
+        <item>"1300;5800;4096"</item>
+        <item>"1600;5800;4096"</item>
+        <item>"3200;5800;4096"</item>
+        <item>"2600;6800;4096"</item>
+        <item>"3200;8800;4096"</item>
+        <item>"2100;9800;4096"</item>
+        <item>"2600;9900;4096"</item>
+        <item>"4100;9900;4096"</item>
+        <item>"5800;12000;4096"</item>
+    </string-array>
+    
+    <!-- 1: support all sensor 2: support root 3: benchmark -->
+    <string-array name="other_settings">
+        <item>"false;false;40000"</item>
+        <item>"false;false;50000"</item>
+        <item>"false;false;60000"</item>
+        <item>"false;false;70000"</item>
+        <item>"false;false;80000"</item>
+        <item>"false;false;90000"</item>
+    </string-array>
+    
+</resources>

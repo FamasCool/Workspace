@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <integer-array name="core_limits">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </integer-array>
+    
+    <integer name="cpu_max_freq_min_limit">1200</integer>
+    
+    <integer name="memory_max_ram_min_limit">512</integer>
+    
+    <integer name="memory_max_ram_max_limit">32768</integer>
+    
+    <integer name="storage_system_min_limit">0</integer>
+    
+    <integer name="storage_system_max_limit">1024</integer>
+    
+    <integer name="storage_internal_min_limit">0</integer>
+    
+    <integer name="storage_internal_max_limit">1024</integer>
+    
+    <integer name="lcd_width_min_limit">480</integer>
+    
+    <integer name="lcd_width_max_limit">8192</integer>
+    
+    <integer name="lcd_height_min_limit">480</integer>
+    
+    <integer name="lcd_height_max_limit">8192</integer>
+    
+    <integer name="lcd_density_min_limit">240</integer>
+    
+    <integer name="lcd_density_max_limit">1024</integer>
+    
+    <integer name="camera_front_pixel_min_limit">100</integer>
+    
+    <integer name="camera_front_pixel_max_limit">20000</integer>
+    
+    <integer name="camera_back_pixel_min_limit">100</integer>
+    
+    <integer name="camera_back_pixel_max_limit">20000</integer>
+    
+    <integer name="camera_video_min_limit">480</integer>
+    
+    <integer name="camera_video_max_limit">4096</integer>
+    
+    <integer name="other_benchmark_min_limit">10000</integer>
+    
+    <integer name="other_benchmark_max_limit">100000</integer>
+    
+</resources>

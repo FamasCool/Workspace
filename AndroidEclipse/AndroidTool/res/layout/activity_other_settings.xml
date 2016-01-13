@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/settings_adapter_item_text_size"
+            android:gravity="center"
+            android:visibility="invisible"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/settings_adapter_item_text_size"
+            android:gravity="center"
+            android:text="@string/other_score_title"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/settings_adapter_item_text_size"
+            android:gravity="center"
+            android:text="@string/other_root_title"/>
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/settings_adapter_item_text_size"
+            android:gravity="center"
+            android:text="@string/other_sensor_title"/>
+
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/settings_adapter_item_text_size"
+            android:gravity="center"
+            android:text="@string/state_title"/>
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#fffdce23"/>
+    
+    <ListView 
+        android:id="@+id/other_settings_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1px"
+        android:divider="#fffdce23"/>
+
+</LinearLayout>

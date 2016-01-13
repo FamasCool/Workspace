@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">"系统应用"</string>
+    
+    <string name="state_title">"状态"</string>
+    <string name="more">"更多"</string>
+    <string name="cpu_title">"CPU"</string>
+    <string name="memory_title">"内存"</string>
+    <string name="storage_title">"存储"</string>
+    <string name="lcd_title">"屏幕"</string>
+    <string name="camera_title">"摄像头"</string>
+    <string name="other_title">"其他"</string>
+    <string name="param_reset_factory_title">"全部恢复出厂值"</string>
+    <string name="camera_reset_factory_title">"恢复摄像头出厂值"</string>
+    <string name="other_reset_factory_title">"恢复其他出厂值"</string>
+    <string name="lcd_reset_factory_title">"恢复屏幕出厂值"</string>
+    <string name="cpu_reset_factory_title">"恢复CPU出厂值"</string>
+    <string name="memory_reset_factory_title">"恢复内存出厂值"</string>
+    <string name="storage_reset_factory_title">"恢复存储出厂值"</string>
+    
+	<string name="cpu_type_label">"类型："</string>
+	<string name="cpu_core_label">"核数："</string>
+    <string name="cpu_min_freq_label">"最低频率（MHz）："</string>
+    <string name="cpu_max_freq_label">"最高频率（MHz）："</string>
+    <string name="cpu_type_not_allow_empty">"类型不能为空"</string>
+    <string name="cpu_core_not_allow_empty">"核数不能为空"</string>
+    <string name="cpu_core_not_a_number">"核数值不是数字"</string>
+    <string name="cpu_core_value_limit">"核数值应是"<xliff:g id="limit">%s</xliff:g>"之一"</string>
+    <string name="cpu_max_freq_not_allow_empty">"最高频率不能为空"</string>
+    <string name="cpu_max_freq_not_a_number">"最高频率值不是数字"</string>
+    <string name="cpu_max_freq_value_limit">"最高频率应大于或等于"<xliff:g id="min">%d</xliff:g></string>
+    <string name="cpu_min_freq_not_allow_empty">"最低频率不能为空"</string>
+    <string name="cpu_min_freq_not_a_number">"最低频率值不是数字"</string>
+    <string name="cpu_min_freq_value_limit">"最低频率应小于最高频率"</string>
+    <string name="cpu_type_title">"类型"</string>
+    <string name="cpu_core_title">"核数"</string>
+    <string name="cpu_min_freq_title">"最低频率"</string>
+    <string name="cpu_max_freq_title">"最高频率"</string>
+    
+    <string name="lcd_height_label">"高度（Pixel）："</string>
+    <string name="lcd_width_label">"宽度（Pixel）："</string>
+    <string name="lcd_dpi_label">"密度（Dpi）："</string>
+    <string name="screen_height_title">"高度"</string>
+    <string name="screen_width_title">"宽度"</string>
+    <string name="screen_dpi_title">"密度"</string>
+    <string name="lcd_width_not_allow_empty">"宽度不能为空"</string>
+    <string name="lcd_width_not_a_number">"宽度值不是数字"</string>
+    <string name="lcd_width_value_limit">"宽度值应大于或等于"<xliff:g id="min">%d</xliff:g>",且小于或等于"<xliff:g id="max">%d</xliff:g> </string>
+    <string name="lcd_height_not_allow_empty">"高度不能为空"</string>
+    <string name="lcd_height_not_a_number">"高度值不是数字"</string>
+    <string name="lcd_height_value_limit">"高度值应大于或等于"<xliff:g id="min">%d</xliff:g>",且小于或等于"<xliff:g id="max">%d</xliff:g></string>
+    <string name="lcd_density_not_allow_empty">"密度不能为空"</string>
+    <string name="lcd_density_not_a_number">"密度值不是数字"</string>
+    <string name="lcd_density_value_limit">"密度值应大于或等于"<xliff:g id="min">%d</xliff:g>",且小于或等于"<xliff:g id="max">%d</xliff:g></string>
+    
+    <string name="max_ram_title">"最大运行内存"</string>
+    <string name="min_ram_title">"最小运行内存"</string>
+    <string name="memory_max_ram_label">"最大运行内存（MB）："</string>
+    <string name="memory_min_ram_label">"最小运行内存（MB）："</string>
+    <string name="memory_max_ram_not_allow_empty">"最大运行内存不能为空"</string>
+    <string name="memory_max_ram_not_a_number">"最大运行内存值不是数字"</string>
+    <string name="memory_max_ram_limit">"最大运行内存值应大于或等于"<xliff:g id="min">%d</xliff:g>",且小于或等于"<xliff:g id="max">%d</xliff:g></string>
+    <string name="memory_max_ram_gb_limit">"最大运行内存值大于1GB时，其值应是1024的倍数"</string>
+    <string name="memory_min_ram_not_allow_empty">"最小运行内存不能为空"</string>
+    <string name="memory_min_ram_not_a_number">"最小运行内存值不是数字"</string>
+    <string name="memory_min_ram_value_limit">"最小运行内存值应小于或等最大运行内存值的一半"</string>
+    <string name="memory_min_ram_gb_limit">"最小运行内存值大于1GB时，其值应是1024的倍数"</string>
+    
+    <string name="storage_user_data_label">"系统存储（GB）："</string>
+    <string name="storage_internal_storage_label">"内部存储（GB）："</string>
+    <string name="storage_system_data_title">"系统存储"</string>
+    <string name="storage_internal_data_title">"内部存储"</string>
+    <string name="system_storage_not_allow_empty">"系统存储不能为空"</string>
+    <string name="system_storage_not_a_number">"系统存储值不是数字"</string>
+    <string name="system_storage_value_limit">"系统存储值应大于或等于"<xliff:g id="min">%d</xliff:g>"，且小于或等于"<xliff:g id="max">%d</xliff:g></string>
+    <string name="internal_storage_not_allow_empty">"内部存储不能为空"</string>
+    <string name="internal_storage_not_a_number">"内部存储值不是数字"</string>
+    <string name="internal_storage_value_limit">"内部存储值应大于或等于"<xliff:g id="min">%d</xliff:g>"，且小于或等于"<xliff:g id="max">%d</xliff:g></string>
+    
+    <string name="camera_front_pixel_title">"前摄像头像素"</string>
+    <string name="camera_back_pixel_title">"后摄像头像素"</string>
+    <string name="camera_video_quality">"视频质量"</string>
+    <string name="camera_front_pixel_label">"前摄像头像素（万像素）："</string>
+    <string name="camera_back_pixel_label">"后摄像头像素（万像素）："</string>
+    <string name="camera_video_fps_label">"视频质量（P）："</string>
+    <string name="camera_front_not_allow_empty">"前摄像头像素不能为空"</string>
+    <string name="camera_front_not_a_number">"前摄像头像素值不是数字"</string>
+    <string name="camera_front_value_limit">"前摄像头像素值应大于或等于"<xliff:g id="min">%d</xliff:g>"，且小于或等于"<xliff:g id="max">%d</xliff:g></string>
+    <string name="camera_back_not_allow_empty">"后摄像头像素不能为空"</string>
+    <string name="camera_back_not_a_number">"后摄像头像素值不是数字"</string>
+    <string name="camera_back_value_limit">"后摄像头像素值应大于或等于"<xliff:g id="min">%d</xliff:g>"， 且小于或等于"<xliff:g id="max">%d</xliff:g></string>
+    <string name="camera_video_not_allow_empty">"视频质量不能为空"</string>
+    <string name="camera_video_not_a_number">"视频质量值不是数字"</string>
+    <string name="camera_video_value_limit">"视频质量值应大于或等于"<xliff:g id="min">%d</xliff:g>"，且小于或等于"<xliff:g id="max">%d</xliff:g></string>
+	
+    <string name="other_support_sensor_label">"支持所有传感器："</string>
+    <string name="other_support_root_label">"支持root："</string>
+    <string name="other_score_label">"跑分："</string>
+    <string name="other_score_title">"跑分"</string>
+    <string name="other_root_title">"支持root"</string>
+    <string name="other_sensor_title">"支持所有传感器"</string>
+    <string name="other_benchmark_not_allow_empty">"跑分不能为空"</string>
+    <string name="other_benchmark_not_a_number">"跑分值不是数字"</string>
+    <string name="other_benchmark_value_limit">"跑分值应大于或等于"<xliff:g id="min">%d</xliff:g>"，且小于或等于"<xliff:g id="max">%d</xliff:g></string>
+    
+</resources>

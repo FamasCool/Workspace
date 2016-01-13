@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item 
+	    android:id="@+id/param_reset_factory"
+	    android:title="@string/other_reset_factory_title"
+	    android:icon="@drawable/ic_reset_factory"
+	    android:showAsAction="always"/>
+	
+</menu>

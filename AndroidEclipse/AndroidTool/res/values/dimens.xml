@@ -1,0 +1,17 @@
+<resources>
+
+	<dimen name="parameter_settings_adapter_text_size">16sp</dimen>
+    <dimen name="parameter_settings_adapter_drawable_padding">8dp</dimen>
+    <dimen name="parameter_settings_adapter_padding_top">7.5dp</dimen>
+    <dimen name="parameter_settings_adapter_padding_bottom">7.5dp</dimen>
+    <dimen name="parameter_settings_item_horizontal_spacing">1dp</dimen>
+    <integer name="parameter_settings_columns_count">3</integer>
+    <dimen name="parameter_settings_padding">1dp</dimen>
+    <dimen name="parameter_settings_vertical_spacing">1dp</dimen>
+    <dimen name="label_text_size">14sp</dimen>
+    <dimen name="edit_text_size">16sp</dimen>
+    <dimen name="settings_adapter_item_text_size">12sp</dimen>
+    <dimen name="settings_adapter_item_padding_top">8dp</dimen>
+   	<dimen name="settings_adapter_item_padding_bottom">8dp</dimen>
+
+</resources>
