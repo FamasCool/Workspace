@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <Preference 
+        android:key="mtk6580_m_log_key"
+        android:title="@string/mtk6580_m_log_title"/>
+
+</PreferenceScreen>
