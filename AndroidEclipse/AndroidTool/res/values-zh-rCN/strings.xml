@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">"系统应用"</string>
+    <string name="app_name">"安卓工具"</string>
     
     <string name="state_title">"状态"</string>
     <string name="more">"更多"</string>

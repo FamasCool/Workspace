@@ -10,7 +10,6 @@ import com.android.androidtool.paramsettings.model.Storage;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.res.Resources;
-import android.icu.impl.duration.impl.Utils;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Menu;

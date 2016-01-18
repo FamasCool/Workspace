@@ -12,6 +12,8 @@ public interface IParamSettings {
 	public static final int PARAM_SETTING_ID = 59;
 	// NV item offset
 	public static final int NV_ITEM_OFFSET = 10;
+	// NV offset
+	public static final int NV_OFFSET = 1024;
 
 	/*
 	 * Cpu system properties key
@@ -25,13 +27,13 @@ public interface IParamSettings {
 	 * Cpu NV index
 	 */
 	// Cpu type start 199 end 208
-	public static final int INDEX_CPU_TYPE = 199;
+	public static final int INDEX_CPU_TYPE = NV_OFFSET + 199;
 	// Cpu core start 209 end 218
-	public static final int INDEX_CPU_CORE = 209;
+	public static final int INDEX_CPU_CORE = NV_OFFSET + 209;
 	// Cpu max freq start 219 end 228
-	public static final int INDEX_CPU_MAX_FREQ = 219;
+	public static final int INDEX_CPU_MAX_FREQ = NV_OFFSET + 219;
 	// Cpu min freq start 229 end 238
-	public static final int INDEX_CPU_MIN_FREQ = 229;
+	public static final int INDEX_CPU_MIN_FREQ = NV_OFFSET + 229;
 
 	/*
 	 * Memory system properties key
@@ -43,9 +45,9 @@ public interface IParamSettings {
 	 * Memory NV index
 	 */
 	// Max RAM start 239 end 248
-	public static final int INDEX_MAX_RAM = 239;
+	public static final int INDEX_MAX_RAM = NV_OFFSET + 239;
 	// Min RAM start 249 end 258
-	public static final int INDEX_MIN_RAM = 249;
+	public static final int INDEX_MIN_RAM = NV_OFFSET + 249;
 
 	/*
 	 * Storage system properties key
@@ -57,9 +59,9 @@ public interface IParamSettings {
 	 * Storage NV index
 	 */
 	// System storage start 259 end 268
-	public static final int INDEX_SYSTEM_STORAGE = 259;
+	public static final int INDEX_SYSTEM_STORAGE = NV_OFFSET + 259;
 	// Internal storage start 269 end 278
-	public static final int INDEX_INTERNAL_STORAGE = 269;
+	public static final int INDEX_INTERNAL_STORAGE = NV_OFFSET + 269;
 
 	/*
 	 * Lcd system properties key
@@ -72,11 +74,11 @@ public interface IParamSettings {
 	 * Lcd NV index
 	 */
 	// Lcd width start 99 end 108
-	public static final int INDEX_LCD_WIDTH = 99;
+	public static final int INDEX_LCD_WIDTH = NV_OFFSET + 99;
 	// Lcd height start 109 end 118
-	public static final int INDEX_LCD_HEIGHT = 109;
+	public static final int INDEX_LCD_HEIGHT = NV_OFFSET + 109;
 	// Lcd density start 119 end 128
-	public static final int INDEX_LCD_DENSITY = 119;
+	public static final int INDEX_LCD_DENSITY = NV_OFFSET + 119;
 
 	/*
 	 * Camera system properties key
@@ -93,19 +95,19 @@ public interface IParamSettings {
 	 * Camera NV index
 	 */
 	// Front camera pixel start 129 end 138
-	public static final int INDEX_FRONT_CAMERA_PIXEL = 129;
+	public static final int INDEX_FRONT_CAMERA_PIXEL = NV_OFFSET + 129;
 	// Front camera width pixel start 139 end 148
-	public static final int INDEX_FRONT_CAMERA_WIDTH_PIXEL = 139;
+	public static final int INDEX_FRONT_CAMERA_WIDTH_PIXEL = NV_OFFSET + 139;
 	// Front camera height pixel start 149 end 158;
-	public static final int INDEX_FRONT_CAMERA_HEIGHT_PIXEL = 149;
+	public static final int INDEX_FRONT_CAMERA_HEIGHT_PIXEL = NV_OFFSET + 149;
 	// Back camera pixel start 159 end 168
-	public static final int INDEX_BACK_CAMERA_PIXEL = 159;
+	public static final int INDEX_BACK_CAMERA_PIXEL = NV_OFFSET + 159;
 	// Back camera width pixel start 169 end 178
-	public static final int INDEX_BACK_CAMERA_WIDTH_PIXEL = 169;
+	public static final int INDEX_BACK_CAMERA_WIDTH_PIXEL = NV_OFFSET + 169;
 	// Back camera height pixel start 179 end 188
-	public static final int INDEX_BACK_CAMERA_HEIGHT_PIXEL = 179;
+	public static final int INDEX_BACK_CAMERA_HEIGHT_PIXEL = NV_OFFSET + 179;
 	// Video quality start 189 end 198
-	public static final int INDEX_VIDEO_QUALITY = 189;
+	public static final int INDEX_VIDEO_QUALITY = NV_OFFSET + 189;
 
 	/*
 	 * Other system properties key
@@ -118,11 +120,11 @@ public interface IParamSettings {
 	 * Other NV index
 	 */
 	// Support all sensor start 279 end 288
-	public static final int INDEX_SUPPORT_ALL_SENSOR = 279;
+	public static final int INDEX_SUPPORT_ALL_SENSOR = NV_OFFSET + 279;
 	// Support root start 289 end 298
-	public static final int INDEX_SUPPORT_ROOT = 289;
+	public static final int INDEX_SUPPORT_ROOT = NV_OFFSET + 289;
 	// Benchmark start 299 end 308
-	public static final int INDEX_BENCHMARK = 299;
+	public static final int INDEX_BENCHMARK = NV_OFFSET + 299;
 
 	/*
 	 * System properties back up key

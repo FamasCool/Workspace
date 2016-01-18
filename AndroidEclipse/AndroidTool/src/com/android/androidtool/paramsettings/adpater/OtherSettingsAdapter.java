@@ -71,8 +71,8 @@ public class OtherSettingsAdapter extends BaseAdapter {
 		Other other = mList.get(position);
 		if (!other.isMore) {
 			holder.mScore.setText(other.benchmark);
-			holder.mRoot.setText((other.supportRoot.equals("true")) ? " «" : "∑Ò");
-			holder.mSensor.setText((other.supportAllSensor.equals("true")) ? " «" : "∑Ò");
+			holder.mRoot.setText((other.supportRoot.equals("true")) ? "ÊòØ" : "Âê¶");
+			holder.mSensor.setText((other.supportAllSensor.equals("true")) ? "ÊòØ" : "Âê¶");
 			if (mCurrentSelect == position) {
 				holder.mLogo.setImageResource(R.drawable.ic_other_logo_select);
 				holder.mState.setImageResource(R.drawable.ic_state_select);
