@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="smart_wake_label">Smart wake</string>
+    <string name="smart_wake_function_select_label">Function select</string>
+    <string name="smart_wake_app_select_label">App select</string>
+    
+    <string name="smart_wake_general_title">General</string>
+    <string name="smart_wake_double_click_wake_screen_title">Smart wake screen</string>
+    <string name="smart_wake_doublec_click_wake_screen_summary">In the off-screen status, double-click the screen to wake the screen</string>
+    <string name="smart_wake_gesture_title">Gesture</string>
+    <string name="smart_wake_c_title">Paint c</string>
+    <string name="smart_wake_e_title">Paint e</string>
+    <string name="smart_wake_m_title">Paint m</string>
+    <string name="smart_wake_o_title">Paint o</string>
+    <string name="smart_wake_s_title">Paint s</string>
+    <string name="smart_wake_v_title">Paint v</string>
+    <string name="smart_wake_w_title">Paint w</string>
+    <string name="smart_wake_z_title">Paint z</string>
+    <string name="smart_wake_up_title">Move up</string>
+    <string name="smart_wake_down_title">Move down</string>
+    <string name="smart_wake_left_title">Move left</string>
+    <string name="smart_wake_right_title">Move right</string>
+    <string name="smart_wake_two_line_title">Two line</string>
+    <string name="smart_wake_double_click_title">Double click</string>
+    
+    <string name="smart_wake_call_summary">"Call "<xliff:g id="newer_callers">%s</xliff:g></string>
+    <string name="smart_wake_open_message_summary">Open message app</string>
+    <string name="smart_wake_open_app_summary">"Open "<xliff:g id="newer_callers">%s</xliff:g>" app"</string>
+    <string name="smart_wake_control_music_summary">Control music</string>
+    <string name="smart_wake_unluck_screen_summary">Unlock screen</string>
+    <string name="smart_wake_wake_screen_summary">Wake screen</string>
+    <string name="smart_wake_play_next_music_summary">Play next music</string>
+    <string name="smart_wake_play_pre_music_summary">Play previous music</string>
+    
+    <string name="smart_wake_call_title">Call</string>
+    <string name="smart_wake_open_message_app_title">Open Message app</string>
+    <string name="smart_wake_open_app_title">Open app</string>
+    <string name="smart_wake_unlock_screen_title">Unlock screen</string>
+    <string name="smart_wake_wake_screen_title">Wake screen</string>
+    <string name="smart_wake_control_music_title">Control music</string>
+    <string name="smart_wake_play_previous_music_title">Play previous music</string>
+    <string name="smart_wake_play_next_music_title">Play next music</string>
+    
+    <string name="smart_wake_unknow_app_name">Unknow</string>
+    
+    
+</resources>

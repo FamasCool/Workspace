@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="smart_wake_label">"trỗi dậy thông minh"</string>
+    <string name="smart_wake_function_select_label">"chức năng chọn"</string>
+    <string name="smart_wake_app_select_label">"App chọn"</string>
+    
+    <string name="smart_wake_general_title">"Chung"</string>
+    <string name="smart_wake_double_click_wake_screen_title">"Thức màn hình thông minh"</string>
+    <string name="smart_wake_doublec_click_wake_screen_summary">"Trong trạng thái tắt màn hình, kích đúp vào màn hình để đánh thức các màn hình"</string>
+    <string name="smart_wake_gesture_title">"cử chỉ"</string>
+    <string name="smart_wake_c_title">"sơn c"</string>
+    <string name="smart_wake_e_title">"sơn e"</string>
+    <string name="smart_wake_m_title">"sơn m"</string>
+    <string name="smart_wake_o_title">"sơn o"</string>
+    <string name="smart_wake_s_title">"sơn s"</string>
+    <string name="smart_wake_v_title">"sơn v"</string>
+    <string name="smart_wake_w_title">"sơn w"</string>
+    <string name="smart_wake_z_title">"sơn z"</string>
+    <string name="smart_wake_up_title">"Đi lên"</string>
+    <string name="smart_wake_down_title">"Đi xuống"</string>
+    <string name="smart_wake_left_title">"Di chuyển sang trái"</string>
+    <string name="smart_wake_right_title">"di chuyển ngay"</string>
+    <string name="smart_wake_two_line_title">"hai dòng"</string>
+    <string name="smart_wake_double_click_title">"Nhấn đúp chuột"</string>
+    
+    <string name="smart_wake_call_summary">"Gọi điện "<xliff:g id="newer_callers">%s</xliff:g></string>
+    <string name="smart_wake_open_message_summary">"Mở ứng dụng nhắn"</string>
+    <string name="smart_wake_open_app_summary">"Mở ra "<xliff:g id="newer_callers">%s</xliff:g>" ứng dụng"</string>
+    <string name="smart_wake_control_music_summary">"điều khiển âm nhạc"</string>
+    <string name="smart_wake_unluck_screen_summary">"mở khóa màn hình"</string>
+    <string name="smart_wake_wake_screen_summary">"thức màn hình"</string>
+    <string name="smart_wake_play_next_music_summary">"Chơi nhạc tiếp theo"</string>
+    <string name="smart_wake_play_pre_music_summary">"Chơi nhạc trước"</string>
+    
+    <string name="smart_wake_call_title">"Gọi điện"</string>
+    <string name="smart_wake_open_message_app_title">"Mở ứng dụng tin nhắn"</string>
+    <string name="smart_wake_open_app_title">"mở ứng dụng"</string>
+    <string name="smart_wake_unlock_screen_title">"mở khóa màn hình"</string>
+    <string name="smart_wake_wake_screen_title">"thức màn hình"</string>
+    <string name="smart_wake_control_music_title">"điều khiển âm nhạc"</string>
+    <string name="smart_wake_play_previous_music_title">"Chơi nhạc trước"</string>
+    <string name="smart_wake_play_next_music_title">"Chơi nhạc tiếp theo"</string>
+    
+    <string name="smart_wake_unknow_app_name">"Không biết"</string>
+    
+    
+</resources>

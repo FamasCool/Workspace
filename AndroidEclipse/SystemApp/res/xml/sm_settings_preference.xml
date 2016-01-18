@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="smart_wake_general_category"
+        android:title="@string/smart_wake_general_title" >
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_double_click_wake_screen_key"
+            android:summary="@string/smart_wake_doublec_click_wake_screen_summary"
+            android:title="@string/smart_wake_double_click_wake_screen_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="smart_wake_gesture_category"
+        android:title="@string/smart_wake_gesture_title" >
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_c_key"
+            android:title="@string/smart_wake_c_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_e_key"
+            android:title="@string/smart_wake_e_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_m_key"
+            android:title="@string/smart_wake_m_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_o_key"
+            android:title="@string/smart_wake_o_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_s_key"
+            android:title="@string/smart_wake_s_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smark_wake_v_key"
+            android:title="@string/smart_wake_v_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_w_key"
+            android:title="@string/smart_wake_w_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_z_key"
+            android:title="@string/smart_wake_z_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_up_key"
+            android:title="@string/smart_wake_up_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_down_key"
+            android:title="@string/smart_wake_down_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_left_key"
+            android:title="@string/smart_wake_left_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_right_key"
+            android:title="@string/smart_wake_right_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_two_line_key"
+            android:title="@string/smart_wake_two_line_title" />
+        <com.android.systemapp.ui.CustomSwitchPreference
+            android:key="smart_wake_double_click_key"
+            android:title="@string/smart_wake_double_click_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

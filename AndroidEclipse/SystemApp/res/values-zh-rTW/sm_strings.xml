@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="smart_wake_label">"智能喚醒"</string>
+    <string name="smart_wake_function_select_label">"選擇功能"</string>
+    <string name="smart_wake_app_select_label">"選擇應用"</string>
+    
+    <string name="smart_wake_general_title">"常規"</string>
+    <string name="smart_wake_double_click_wake_screen_title">"智能亮屏"</string>
+    <string name="smart_wake_doublec_click_wake_screen_summary">"在滅屏狀態下，雙擊屏幕以點亮屏幕"</string>
+    <string name="smart_wake_gesture_title">"手勢"</string>
+    <string name="smart_wake_c_title">"畫c手勢"</string>
+    <string name="smart_wake_e_title">"畫e手勢"</string>
+    <string name="smart_wake_m_title">"畫m手勢"</string>
+    <string name="smart_wake_o_title">"畫o手勢"</string>
+    <string name="smart_wake_s_title">"畫s手勢"</string>
+    <string name="smart_wake_v_title">"畫v手勢"</string>
+    <string name="smart_wake_w_title">"畫w手勢"</string>
+    <string name="smart_wake_z_title">"畫z手勢"</string>
+    <string name="smart_wake_up_title">"上劃手勢"</string>
+    <string name="smart_wake_down_title">"下劃手勢"</string>
+    <string name="smart_wake_left_title">"左劃手勢"</string>
+    <string name="smart_wake_right_title">"右劃手勢"</string>
+    <string name="smart_wake_two_line_title">"雙線手勢"</string>
+    <string name="smart_wake_double_click_title">"雙擊手勢"</string>
+    
+    <string name="smart_wake_call_summary">"撥打號碼 "<xliff:g id="newer_callers">%s</xliff:g></string>
+    <string name="smart_wake_open_message_summary">"打開短信應用"</string>
+    <string name="smart_wake_open_app_summary">"打開 "<xliff:g id="newer_callers">%s</xliff:g>" 應用"</string>
+    <string name="smart_wake_control_music_summary">"控制音樂"</string>
+    <string name="smart_wake_unluck_screen_summary">"解鎖屏幕"</string>
+    <string name="smart_wake_wake_screen_summary">"喚醒屏幕"</string>
+    <string name="smart_wake_play_next_music_summary">"播放下一首歌曲"</string>
+    <string name="smart_wake_play_pre_music_summary">"播放上一首歌曲"</string>
+    
+    <string name="smart_wake_call_title">"撥打電話"</string>
+    <string name="smart_wake_open_message_app_title">"打開短信應用"</string>
+    <string name="smart_wake_open_app_title">"打開應用"</string>
+    <string name="smart_wake_unlock_screen_title">"解鎖屏幕"</string>
+    <string name="smart_wake_wake_screen_title">"喚醒屏幕"</string>
+    <string name="smart_wake_control_music_title">"控制音樂"</string>
+    <string name="smart_wake_play_previous_music_title">"播放上一首歌曲"</string>
+    <string name="smart_wake_play_next_music_title">"播放下一首歌曲"</string>
+    
+    <string name="smart_wake_unknow_app_name">"未知"</string>
+    
+    
+</resources>

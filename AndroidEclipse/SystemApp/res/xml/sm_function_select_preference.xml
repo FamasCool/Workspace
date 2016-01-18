@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <Preference 
+        android:key="smart_wake_call_key"
+        android:title="@string/smart_wake_call_title"/>
+    
+    <Preference 
+        android:key="smart_wake_open_message_app_key"
+        android:title="@string/smart_wake_open_message_app_title"/>
+    
+    <Preference 
+        android:key="smart_wake_open_app_key"
+        android:title="@string/smart_wake_open_app_title"/>
+    
+    <Preference 
+        android:key="smart_wake_unlock_screen_key"
+        android:title="@string/smart_wake_unlock_screen_title"/>
+    
+    <Preference 
+        android:key="smart_wake_wake_screen_key"
+        android:title="@string/smart_wake_wake_screen_title"/>
+    
+    <Preference 
+        android:key="smart_wake_control_music_key"
+        android:title="@string/smart_wake_control_music_title"/>
+    
+    <Preference 
+        android:key="smart_wake_play_previous_music_key"
+        android:title="@string/smart_wake_play_previous_music_title"/>
+    
+    <Preference 
+        android:key="smart_wake_play_next_music_key"
+        android:title="@string/smart_wake_play_next_music_title"/>
+
+</PreferenceScreen>

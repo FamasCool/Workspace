@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="smart_wake_label">"Смарт пробуждения"</string>
+    <string name="smart_wake_function_select_label">"Функция выбора"</string>
+    <string name="smart_wake_app_select_label">"App выберите"</string>
+    
+    <string name="smart_wake_general_title">"Генеральная"</string>
+    <string name="smart_wake_double_click_wake_screen_title">"Умный экран пробуждения"</string>
+    <string name="smart_wake_doublec_click_wake_screen_summary">"В состоянии с экраном, дважды щелкните по экрану, чтобы разбудить экран"</string>
+    <string name="smart_wake_gesture_title">"Жест"</string>
+    <string name="smart_wake_c_title">"Краска с"</string>
+    <string name="smart_wake_e_title">"Краска электронной"</string>
+    <string name="smart_wake_m_title">"Краска м"</string>
+    <string name="smart_wake_o_title">"Краска о"</string>
+    <string name="smart_wake_s_title">"Краски"</string>
+    <string name="smart_wake_v_title">"Краска против"</string>
+    <string name="smart_wake_w_title">"Краска W"</string>
+    <string name="smart_wake_z_title">"Краска г"</string>
+    <string name="smart_wake_up_title">"вверх"</string>
+    <string name="smart_wake_down_title">"вниз"</string>
+    <string name="smart_wake_left_title">"Двигай влево"</string>
+    <string name="smart_wake_right_title">"Двигаться вправо"</string>
+    <string name="smart_wake_two_line_title">"Два линия"</string>
+    <string name="smart_wake_double_click_title">"Двойной клик"</string>
+    
+    <string name="smart_wake_call_summary">"Вызов "<xliff:g id="newer_callers">%s</xliff:g></string>
+    <string name="smart_wake_open_message_summary">"Открыть приложение сообщение"</string>
+    <string name="smart_wake_open_app_summary">"открыто "<xliff:g id="newer_callers">%s</xliff:g>" приложение"</string>
+    <string name="smart_wake_control_music_summary">"Управление музыкой"</string>
+    <string name="smart_wake_unluck_screen_summary">"Разблокировать экран"</string>
+    <string name="smart_wake_wake_screen_summary">"Услуга экран"</string>
+    <string name="smart_wake_play_next_music_summary">"Играть музыку следующий"</string>
+    <string name="smart_wake_play_pre_music_summary">"Воспроизведение предыдущего музыку"</string>
+    
+    <string name="smart_wake_call_title">"Вызов"</string>
+    <string name="smart_wake_open_message_app_title">"Открыть приложение сообщение"</string>
+    <string name="smart_wake_open_app_title">"Открыть приложение"</string>
+    <string name="smart_wake_unlock_screen_title">"Разблокировать экран"</string>
+    <string name="smart_wake_wake_screen_title">"Услуга экран"</string>
+    <string name="smart_wake_control_music_title">"Управление музыкой"</string>
+    <string name="smart_wake_play_previous_music_title">"Воспроизведение предыдущего музыку"</string>
+    <string name="smart_wake_play_next_music_title">"Играть музыку следующий"</string>
+    
+    <string name="smart_wake_unknow_app_name">"неизвестный"</string>
+    
+    
+</resources>

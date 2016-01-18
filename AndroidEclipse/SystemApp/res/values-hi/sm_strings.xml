@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="smart_wake_label">"स्मार्ट मद्देनजर"</string>
+    <string name="smart_wake_function_select_label">"समारोह का चयन"</string>
+    <string name="smart_wake_app_select_label">चुनिंदा ऐप</string>
+    
+    <string name="smart_wake_general_title">"सामान्य"</string>
+    <string name="smart_wake_double_click_wake_screen_title">"स्मार्ट मद्देनजर स्क्रीन"</string>
+    <string name="smart_wake_doublec_click_wake_screen_summary">ऑफ स्क्रीन स्थिति में, स्क्रीन जागृत करने के लिए स्क्रीन डबल क्लिक करें</string>
+    <string name="smart_wake_gesture_title">"इशारा"</string>
+    <string name="smart_wake_c_title">"पेंट ग"</string>
+    <string name="smart_wake_e_title">"पेंट ई"</string>
+    <string name="smart_wake_m_title">"पेंट मीटर"</string>
+    <string name="smart_wake_o_title">"ओ पेंट"</string>
+    <string name="smart_wake_s_title">"पेंट रों"</string>
+    <string name="smart_wake_v_title">"पेंट वी"</string>
+    <string name="smart_wake_w_title">"डब्ल्यू पेंट"</string>
+    <string name="smart_wake_z_title">"पेंट Z"</string>
+    <string name="smart_wake_up_title">"बढ़ाना"</string>
+    <string name="smart_wake_down_title">"नीचे की ओर"</string>
+    <string name="smart_wake_left_title">"बाएं खिसको"</string>
+    <string name="smart_wake_right_title">"दाएँ चले"</string>
+    <string name="smart_wake_two_line_title">"दो लाइन"</string>
+    <string name="smart_wake_double_click_title">"डबल क्लिक करें"</string>
+    
+    <string name="smart_wake_call_summary">"कॉल "<xliff:g id="newer_callers">%s</xliff:g></string>
+    <string name="smart_wake_open_message_summary">"ओपन संदेश एप्लिकेशन"</string>
+    <string name="smart_wake_open_app_summary">"खुला "<xliff:g id="newer_callers">%s</xliff:g>" एप्लिकेशन"</string>
+    <string name="smart_wake_control_music_summary">"नियंत्रण संगीत"</string>
+    <string name="smart_wake_unluck_screen_summary">"स्क्रीन अनलॉक"</string>
+    <string name="smart_wake_wake_screen_summary">"जाग्रत स्क्रीन"</string>
+    <string name="smart_wake_play_next_music_summary">"अगले संगीत खेलो"</string>
+    <string name="smart_wake_play_pre_music_summary">"पिछले संगीत खेलो"</string>
+    
+    <string name="smart_wake_call_title">"कॉल"</string>
+    <string name="smart_wake_open_message_app_title">"खुले संदेश एप्लिकेशन"</string>
+    <string name="smart_wake_open_app_title">"ऐप खोलो"</string>
+    <string name="smart_wake_unlock_screen_title">"स्क्रीन अनलॉक"</string>
+    <string name="smart_wake_wake_screen_title">"जाग्रत स्क्रीन"</string>
+    <string name="smart_wake_control_music_title">"नियंत्रण संगीत"</string>
+    <string name="smart_wake_play_previous_music_title">"पिछले संगीत खेलो"</string>
+    <string name="smart_wake_play_next_music_title">"अगले संगीत खेलो"</string>
+    
+    <string name="smart_wake_unknow_app_name">"अज्ञात"</string>
+    
+    
+</resources>

@@ -12,11 +12,13 @@ import android.os.AsyncTask;
 import android.os.IBinder;
 import android.text.TextUtils;
 
+import com.mediatek.common.featureoption.XunhuOption;
+
 public class SystemAppService extends Service {
 
 	private static final String ACTION_EXTRA = "action";
 
-	private static final boolean mEnabledCustomParamterSetting = true;
+	private static final boolean mEnabledCustomParamterSetting = XunhuOption.XUNHU_QTY_CUSTOM_DEVICE_PARAMETER;
 	
 	private BootCompletedAsyncTask mBootCompletedAsyncTask;
 

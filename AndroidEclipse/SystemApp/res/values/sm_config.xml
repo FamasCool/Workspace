@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--	是否显示手势菜单，true表示显示，false表示隐藏	-->
+    <!--	智能亮屏手势（通过双击手势实现，设置功能时请设置双击手势的功能），功能固定，不能再选择其他功能，且与双击手势不能同时打开　-->
+    <bool name="smart_wake_double_click_wake_screen_visible">true</bool>
+    <!--	画c手势菜单	-->
+    <bool name="smart_wake_c_visible">true</bool>
+    <!--	画e手势菜单	-->
+    <bool name="smart_wake_e_visible">true</bool>
+    <!--	画m手势菜单	-->
+    <bool name="smart_wake_m_visible">true</bool>
+    <!--	画o手势菜单	-->
+    <bool name="smart_wake_o_visible">true</bool>
+    <!--	画s手势菜单	-->
+    <bool name="smart_wake_s_visible">false</bool>
+    <!--	画v手势菜单	-->
+    <bool name="smart_wake_v_visible">false</bool>
+    <!--	画w手势菜单	-->
+    <bool name="smart_wake_w_visible">true</bool>
+    <!--	画z手势菜单	-->
+    <bool name="smart_wake_z_visible">false</bool>
+    <!--	上划手势菜单	-->
+    <bool name="smart_wake_up_visible">false</bool>
+    <!--	下划手势菜单	-->
+    <bool name="smart_wake_down_visible">false</bool>
+    <!--	左划手势菜单	-->
+    <bool name="smart_wake_left_visible">false</bool>
+    <!--	右划手势菜单	-->
+    <bool name="smart_wake_right_visible">false</bool>
+    <!--	双线手势菜单	-->
+    <bool name="smart_wake_two_line_visible">false</bool>
+    <!--	双击手势菜单，打开该手势，必须关闭智能亮屏手势菜单（smart_wake_double_click_wake_screen_visible），且该手势没有自己的动画，所以使用上划手势的动画	-->
+    <bool name="smart_wake_double_click_visible">false</bool>
+    
+    <!--	当关闭智能唤醒总开关后是否保持各手势的当前开关状态，true表示保持，false表示不保持（即重置为关闭状态）	-->
+    <bool name="smart_wake_enabled_store_preferences_state">true</bool>
+    
+    <!--	智能唤醒各手势可选功能菜单，true表示显示，false表示隐藏	-->
+    <!--	拨号功能菜单，点击该菜单将弹出选择联系人界面	-->
+    <bool name="smart_wake_call_function_visible">true</bool>
+    <!--	打开短信应用菜单	-->
+    <bool name="smart_wake_open_message_app_function_visible">true</bool>
+    <!--	打开应用菜单，点击该菜单将进入应用选择列表界面	-->
+    <bool name="smart_wake_open_app_function_visible">true</bool>
+    <!--	解锁屏幕	-->
+    <bool name="smart_wake_unlock_screen_function_visible">true</bool>
+    <!--	唤醒屏幕，　但不解锁屏幕	-->
+    <bool name="smart_wake_wake_screen_function_visible">true</bool>
+    <!--	控制音乐（播放或暂停），但不进入音乐播放界面，也不亮屏	-->
+    <bool name="smart_wake_control_music_function_visible">true</bool>
+    <!--	播放上一首歌曲，但不进入音乐播放界面，也不亮屏	-->
+    <bool name="smart_wake_play_previous_music_function_visible">true</bool>
+    <!--	播放下一首歌曲，但不进入音乐播放界面，也不亮屏	-->
+    <bool name="smart_wake_play_next_music_function_visible">true</bool>
+    
+    <!--	应用选择列表的过滤应用的包名，也就是说在这里定义的包名，都不会在应用选择列表中出现	-->
+    <string-array name="filter_package_name">
+        <item>com.google.android.gms</item>
+        <item>com.adobe.flashplayer</item>
+        <item>com.morpho.app.photocleardemotrial</item>
+        <item>com.meng.locknow</item>
+        <item>com.mediatek.hotknot.verifier</item>
+        <item>com.zhuoyou.freeme</item>
+        <item>com.zhuoyi.security.lite</item>
+    </string-array>
+    
+</resources>

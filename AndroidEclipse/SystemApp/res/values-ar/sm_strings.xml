@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="smart_wake_label">"أعقاب الذكية"</string>
+    <string name="smart_wake_function_select_label">"حدد وظيفة"</string>
+    <string name="smart_wake_app_select_label">"التطبيق حدد"</string>
+    
+    <string name="smart_wake_general_title">"جنرال لواء"</string>
+    <string name="smart_wake_double_click_wake_screen_title">"شاشة أعقاب الذكية"</string>
+    <string name="smart_wake_doublec_click_wake_screen_summary">"في حالة خارج الشاشة، انقر نقرا مزدوجا فوق الشاشة لايقاظ الشاشة"</string>
+    <string name="smart_wake_gesture_title">"تعبير بلغة الجسد"</string>
+    <string name="smart_wake_c_title">"الطلاء ج"</string>
+    <string name="smart_wake_e_title">"الطلاء ه"</string>
+    <string name="smart_wake_m_title">"الطلاء م"</string>
+    <string name="smart_wake_o_title">"طلاء س"</string>
+    <string name="smart_wake_s_title">"الدهانات"</string>
+    <string name="smart_wake_v_title">"الطلاء الخامس"</string>
+    <string name="smart_wake_w_title">"رسم ث"</string>
+    <string name="smart_wake_z_title">"الطلاء Z"</string>
+    <string name="smart_wake_up_title">"تحرك"</string>
+    <string name="smart_wake_down_title">"تحرك لأسفل"</string>
+    <string name="smart_wake_left_title">"تحرك يسارا"</string>
+    <string name="smart_wake_right_title">"تحرك يمينا"</string>
+    <string name="smart_wake_two_line_title">"اثنين من خط"</string>
+    <string name="smart_wake_double_click_title">"انقر مرتين"</string>
+    
+    <string name="smart_wake_call_summary">"مكالمة "<xliff:g id="newer_callers">%s</xliff:g></string>
+    <string name="smart_wake_open_message_summary">"فتح التطبيق رسالة"</string>
+    <string name="smart_wake_open_app_summary">"فتح "<xliff:g id="newer_callers">%s</xliff:g>" التطبيق"</string>
+    <string name="smart_wake_control_music_summary">"الموسيقى السيطرة"</string>
+    <string name="smart_wake_unluck_screen_summary">"فتح الشاشة"</string>
+    <string name="smart_wake_wake_screen_summary">"شاشة أعقاب"</string>
+    <string name="smart_wake_play_next_music_summary">"تشغيل الموسيقى المقبل"</string>
+    <string name="smart_wake_play_pre_music_summary">"تلعب الموسيقى السابق"</string>
+    
+    <string name="smart_wake_call_title">"مكالمة"</string>
+    <string name="smart_wake_open_message_app_title">"فتح التطبيق رسالة"</string>
+    <string name="smart_wake_open_app_title">"فتح التطبيق"</string>
+    <string name="smart_wake_unlock_screen_title">"فتح الشاشة"</string>
+    <string name="smart_wake_wake_screen_title">"شاشة أعقاب"</string>
+    <string name="smart_wake_control_music_title">"الموسيقى السيطرة"</string>
+    <string name="smart_wake_play_previous_music_title">"تلعب الموسيقى السابق"</string>
+    <string name="smart_wake_play_next_music_title">"تشغيل الموسيقى المقبل"</string>
+    
+    <string name="smart_wake_unknow_app_name">"غير معروف"</string>
+    
+    
+</resources>
