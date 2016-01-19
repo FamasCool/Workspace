@@ -13,6 +13,7 @@ import android.content.Context;
 import android.os.IBinder;
 import android.os.ServiceManager;
 import android.os.SystemProperties;
+import android.text.TextUtils;
 
 public class ParamSettings implements IParamSettings {
 
@@ -553,6 +554,10 @@ public class ParamSettings implements IParamSettings {
 				String core = ParamSettingsUtils.getString(buff, INDEX_CPU_CORE, INDEX_CPU_CORE + NV_ITEM_OFFSET);
 				String minFreq = ParamSettingsUtils.getString(buff, INDEX_CPU_MIN_FREQ, INDEX_CPU_MIN_FREQ + NV_ITEM_OFFSET);
 				String maxFreq = ParamSettingsUtils.getString(buff, INDEX_CPU_MAX_FREQ, INDEX_CPU_MAX_FREQ + NV_ITEM_OFFSET);
+				if (TextUtils.isEmpty(type) || TextUtils.isEmpty(core) || !TextUtils.isDigitsOnly(core)  || TextUtils.isEmpty(minFreq) 
+							|| !TextUtils.isDigitsOnly(minFreq) || TextUtils.isEmpty(maxFreq) || !TextUtils.isDigitsOnly(maxFreq)) {
+						return null;
+				}
 				return new Cpu(-1, type, core, minFreq, maxFreq, false);
 			}
 		} catch (Exception e) {
@@ -574,6 +579,9 @@ public class ParamSettings implements IParamSettings {
 									INDEX_MIN_RAM, INDEX_MIN_RAM + NV_ITEM_OFFSET)) * 1024L * 1024L);
 				String maxRam = ParamSettingsUtils.formatStorageSize(ParamSettingsUtils.getStorageValue(ParamSettingsUtils.getString(buff,
 									INDEX_MAX_RAM, INDEX_MAX_RAM + NV_ITEM_OFFSET)) * 1024L * 1024L);
+				if (TextUtils.isEmpty(minRam) || !TextUtils.isDigitsOnly(minRam) || TextUtils.isEmpty(maxRam) || !TextUtils.isDigitsOnly(maxRam)) {
+					return null;
+				}
 				return new Memory(-1, minRam, maxRam, false);
 			}
 		} catch (Exception e) {
@@ -593,6 +601,10 @@ public class ParamSettings implements IParamSettings {
 			if (buff != null && buff.length > (INDEX_BENCHMARK + NV_ITEM_OFFSET)) {
 				String systemStorage = ParamSettingsUtils.getString(buff, INDEX_SYSTEM_STORAGE, INDEX_SYSTEM_STORAGE + NV_ITEM_OFFSET);
 				String internalStorage = ParamSettingsUtils.getString(buff, INDEX_INTERNAL_STORAGE, INDEX_INTERNAL_STORAGE + NV_ITEM_OFFSET);
+				if (TextUtils.isEmpty(systemStorage) || !TextUtils.isDigitsOnly(systemStorage) || TextUtils.isEmpty(internalStorage)
+							|| !TextUtils.isDigitsOnly(internalStorage)) {
+					return null;
+				}
 				return new Storage(-1, systemStorage, internalStorage, false);
 			}
 		} catch (Exception e) {
@@ -613,6 +625,10 @@ public class ParamSettings implements IParamSettings {
 				String width = ParamSettingsUtils.getString(buff, INDEX_LCD_WIDTH, INDEX_LCD_WIDTH + NV_ITEM_OFFSET);
 				String height = ParamSettingsUtils.getString(buff, INDEX_LCD_HEIGHT, INDEX_LCD_HEIGHT + NV_ITEM_OFFSET);
 				String density = ParamSettingsUtils.getString(buff, INDEX_LCD_DENSITY, INDEX_LCD_DENSITY + NV_ITEM_OFFSET);
+				if (TextUtils.isEmpty(width) || !TextUtils.isDigitsOnly(width) || TextUtils.isEmpty(height) || !TextUtils.isDigitsOnly(height)
+						|| TextUtils.isEmpty(density) || !TextUtils.isDigitsOnly(density)) {
+					return null;
+				}
 				return new Lcd(-1, width, height, density, false);
 			}
 		} catch (Exception e) {
@@ -642,6 +658,12 @@ public class ParamSettings implements IParamSettings {
 				String backHeight = ParamSettingsUtils.getString(buff, INDEX_BACK_CAMERA_HEIGHT_PIXEL,
 						INDEX_BACK_CAMERA_HEIGHT_PIXEL + NV_ITEM_OFFSET);
 				String video = ParamSettingsUtils.getString(buff, INDEX_VIDEO_QUALITY, INDEX_VIDEO_QUALITY + NV_ITEM_OFFSET);
+				if (TextUtils.isEmpty(front) || !TextUtils.isDigitsOnly(front) || TextUtils.isEmpty(frontWidth) || !TextUtils.isDigitsOnly(frontWidth)
+						|| TextUtils.isEmpty(frontHeight) || !TextUtils.isDigitsOnly(frontHeight) || TextUtils.isEmpty(back) || !TextUtils.isDigitsOnly(back)
+						|| TextUtils.isEmpty(backWidth) || !TextUtils.isDigitsOnly(backWidth) || TextUtils.isEmpty(backHeight) | !TextUtils.isDigitsOnly(backHeight)
+						|| TextUtils.isEmpty(video) || !TextUtils.isDigitsOnly(video)) {
+					return null;
+				}
 				return new Camera(-1, front, frontWidth, frontHeight, back, backWidth, backHeight, video, false);
 			}
 		} catch (Exception e) {
@@ -662,6 +684,10 @@ public class ParamSettings implements IParamSettings {
 				String sensor = ParamSettingsUtils.getString(buff, INDEX_SUPPORT_ALL_SENSOR, INDEX_SUPPORT_ALL_SENSOR + NV_ITEM_OFFSET);
 				String root = ParamSettingsUtils.getString(buff, INDEX_SUPPORT_ROOT, INDEX_SUPPORT_ROOT + NV_ITEM_OFFSET);
 				String banchmark = ParamSettingsUtils.getString(buff, INDEX_BENCHMARK, INDEX_BENCHMARK + NV_ITEM_OFFSET);
+				if ((!"true".equals(sensor) && !"false".equals(sensor)) || (!"true".equals(root) && !"false".equals(root)) 
+						|| TextUtils.isEmpty(banchmark) || !TextUtils.isDigitsOnly(banchmark)) {
+					return null;
+				}
 				return new Other(-1, sensor, root, banchmark, false);
 			}
 		} catch (Exception e) {

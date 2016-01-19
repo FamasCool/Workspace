@@ -2,12 +2,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     
     <integer-array name="core_limits">
-        <item>2</item>
         <item>4</item>
-        <item>6</item>
         <item>8</item>
         <item>16</item>
-        <item>32</item>
     </integer-array>
     
     <integer name="cpu_max_freq_min_limit">1200</integer>

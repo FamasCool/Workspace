@@ -264,7 +264,7 @@ public class ParamSettingsUtils {
 			try {
 				int p = Integer.valueOf(pix) * 10000;
 				int w = (int) Math.sqrt(p / (48.0 * 64.0)) * 48;
-				width = "" + (w - w % 10);
+				width = "" + w;
 			} catch (Exception e) {
 				Log.d(TAG, "calculateWidth=>error: " + e.toString());
 			}
@@ -279,7 +279,7 @@ public class ParamSettingsUtils {
 			try {
 				int p = Integer.valueOf(pix) * 10000;
 				int h = (int) Math.sqrt(p / (48.0 * 64.0)) * 64;
-				height = "" + (h - h % 10);
+				height = "" + h;
 			} catch (Exception e) {
 				Log.d(TAG, "calculateHeight=>error: " + e.toString());
 			}

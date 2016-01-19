@@ -4,7 +4,7 @@
     <drawable name="parameter_settings_adapter_item_normal">#ffffffff</drawable>
     <drawable name="parameter_settings_adapter_item_press">#ffdbdbdb</drawable>
     <color name="parameter_settings_adapter_text_color">#ff000000</color>
-    <color name="edit_text_color">#ffffffff</color>
+    <color name="edit_text_color">#ff000000</color>
     <color name="parameter_settings_background">#ffc1c1c1</color>
     
 </resources>
