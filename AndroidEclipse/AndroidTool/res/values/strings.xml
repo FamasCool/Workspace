@@ -11,6 +11,8 @@
     <string name="lcd_title">Screen</string>
     <string name="camera_title">Camera</string>
     <string name="other_title">Other</string>
+    <string name="model_tilte">Model</string>
+    <string name="settings_title">Settings</string>
     <string name="param_reset_factory_title">Factory Reset</string>
     <string name="camera_reset_factory_title">Restore factory value Camera</string>
     <string name="other_reset_factory_title">Restore factory value Other</string>
@@ -104,5 +106,14 @@
     <string name="other_benchmark_not_a_number">Benchmark not a number</string>
     <string name="other_benchmark_value_limit">Benchmark value should be between <xliff:g id="min">%d</xliff:g> to <xliff:g id="max">%d</xliff:g></string>
     
+    <string name="enter_product_model">Enter product model:</string>
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="not_allow_empty_model">Model name not allow empty</string>
+    
+    <string name="reset_all_custom_device_parameter_title">Reset custom device parameter</string>
+    <string name="reset_all_custom_device_parameter_summary">Reset cpu, memory, storage, lcd, camera and other parameter to factory</string>
+    <string name="warning_dialog_title">Warning</string>
+    <string name="reset_custom_device_parameter_dialog_msg">This operation will restore the custom parameters to default values</string>
     
 </resources>

@@ -24,6 +24,8 @@ public class ParameterSettingsActivity extends Activity implements OnItemClickLi
 	private static final int LCD = 3;
 	private static final int CAMERA = 4;
 	private static final int OTHER = 5;
+	private static final int MODEL = 6;	
+	private static final int SETTINGS = 7;
 
 	private IParamSettings mParamSettings;
 	private GridView mGridView;
@@ -36,27 +38,6 @@ public class ParameterSettingsActivity extends Activity implements OnItemClickLi
 		setContentView(R.layout.activity_parameter_settinsg);
 
 		initViews();
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.menu_param_settings, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onPrepareOptionsMenu(Menu menu) {
-		return super.onPrepareOptionsMenu(menu);
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case R.id.param_reset_factory:
-			mParamSettings.resetAllParamToFactory();
-			break;
-		}
-		return true;
 	}
 
 	public void initViews() {
@@ -92,6 +73,14 @@ public class ParameterSettingsActivity extends Activity implements OnItemClickLi
 
 		case OTHER:
 			startActivity(new Intent(this, OtherSettingsActivity.class));
+			break;
+			
+		case MODEL:
+			startActivity(new Intent(this, ModelActivity.class));
+			break;
+			
+		case SETTINGS:
+			startActivity(new Intent(this, SettingsActivity.class));
 			break;
 		}
 	}

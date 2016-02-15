@@ -8,6 +8,9 @@ import com.android.androidtool.paramsettings.model.Cpu;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -75,7 +78,7 @@ public class CpuMoreActivity extends Activity implements OnClickListener {
 		}
 		return true;
 	}
-
+	
 	private void initViews() {
 		mParamSettings = new ParamSettings(this);
 		Resources res = getResources();

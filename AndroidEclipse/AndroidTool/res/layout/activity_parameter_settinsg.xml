@@ -1,28 +1,16 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_grid_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/parameter_settings_item_horizontal_spacing"
+    android:layout_weight="1"
     android:background="@color/parameter_settings_background"
-    android:orientation="vertical" >
-    
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="centerInside"
-        android:src="@drawable/ic_logo" />
+    android:fadingEdge="none"
+    android:horizontalSpacing="@dimen/parameter_settings_item_horizontal_spacing"
+    android:numColumns="@integer/parameter_settings_columns_count"
+    android:scrollbars="none"
+    android:scrollingCache="true"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="@dimen/parameter_settings_vertical_spacing" >
 
-    <GridView
-        android:id="@+id/main_grid_view"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:scrollbars="none"
-        android:scrollingCache="true"
-        android:fadingEdge="none"
-        android:layout_marginTop="@dimen/parameter_settings_item_horizontal_spacing"
-        android:horizontalSpacing="@dimen/parameter_settings_item_horizontal_spacing"
-        android:numColumns="@integer/parameter_settings_columns_count"
-        android:stretchMode="columnWidth"
-        android:verticalSpacing="@dimen/parameter_settings_vertical_spacing" >
-    </GridView>
-
-</LinearLayout>
+</GridView>

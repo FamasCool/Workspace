@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<Preference 
+	    android:key="reset_all_custom_device_parameter"
+	    android:title="@string/reset_all_custom_device_parameter_title"
+	    android:summary="@string/reset_all_custom_device_parameter_summary"/>
+	
+</PreferenceScreen>

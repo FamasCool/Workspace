@@ -1,5 +1,7 @@
 package com.android.androidtool.paramsettings;
 
+import java.util.Arrays;
+
 import com.android.androidtool.Log;
 import com.android.androidtool.NvRAMAgent;
 import com.android.androidtool.paramsettings.model.Camera;
@@ -541,6 +543,36 @@ public class ParamSettings implements IParamSettings {
 		return result;
 	}
 	
+	public boolean writeProductModelToNV(String model) {
+		boolean result = false;
+		IBinder binder = ServiceManager.getService("NvRAMAgent");
+		NvRAMAgent agent = NvRAMAgent.Stub.asInterface(binder);
+		byte[] buff = null;
+		try {
+			buff = agent.readFile(PARAM_SETTING_ID);
+			Log.d(this, "writeProductModelToNV=>length: " + (buff != null ? buff.length : "null") + " Model: " + model);
+			if (buff != null
+					&& buff.length > (INDEX_PRODUCT_NAME + PRODUCT_MODEL_LENGTH + 1)) {
+				if (model.length() > 255) {
+					model = model.substring(0, 255);
+				}
+				Log.d(this, "writeProductModelToNV=>model: " + model);
+				byte[] bytes = model.getBytes();
+				byte[] realBytes = Arrays.copyOf(bytes, bytes.length + 1);
+				buff = ParamSettingsUtils.insertByteArray(buff, INDEX_PRODUCT_NAME,
+						INDEX_PRODUCT_NAME + realBytes.length + 1, realBytes);
+				printAllNvValues(buff);
+				int flag = agent.writeFile(PARAM_SETTING_ID, buff);
+				if (flag > 0) {
+					result = true;
+				}
+			}
+		} catch (Exception e) {
+			Log.e(this, "writeProductModelToNV=>error: ", e);
+		}
+		return result;
+	}
+	
 	@Override
 	public Cpu getCpuParamFromNV() {
 		IBinder binder = ServiceManager.getService("NvRAMAgent");
@@ -778,6 +810,14 @@ public class ParamSettings implements IParamSettings {
 		Log.d(this, "printNvValue=>Lcd: " + getLcdParamFromNV());
 		Log.d(this, "printNvValue=>Camera: " + getCameraParamFromNV());
 		Log.d(this, "printNvValue=>Other: " + getOtherParamFromNV());
+	}
+	
+	private void printAllNvValues(byte[] bytes) {
+		if (bytes != null) {
+			for (int i = 0; i < bytes.length; i++) {
+				Log.d(this, "printAllNvValues=>" + i + ": " + bytes[i]);
+			}
+		}
 	}
 
 }

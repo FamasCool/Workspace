@@ -8,6 +8,8 @@
         <item>@string/lcd_title</item>
         <item>@string/camera_title</item>
         <item>@string/other_title</item>
+        <item>@string/model_tilte</item>
+        <item>@string/settings_title</item>
     </string-array>
     
     <array name="param_settings_icons" translatable="false">
@@ -17,6 +19,8 @@
 		<item>@drawable/ic_screen</item>
 		<item>@drawable/ic_camera</item>
 		<item>@drawable/ic_other</item>
+		<item>@drawable/ic_model</item>
+		<item>@drawable/ic_settings</item>
     </array>
     
     <!-- 1: type 2:core 3: min freq 4: max freq -->

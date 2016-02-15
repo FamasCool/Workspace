@@ -157,6 +157,8 @@ public class ParamSettingsUtils {
 				}
 			}
 		}
+		Long.valueOf(value);
+		System.out.println("insertByteArray=>start: " + start + " end: " + end + " target: " + target + " value: " + value);
 		Log.d(TAG, "insertByteArray=>start: " + start + " end: " + end + " target: " + target + " value: " + value);
 		return target;
 	}
