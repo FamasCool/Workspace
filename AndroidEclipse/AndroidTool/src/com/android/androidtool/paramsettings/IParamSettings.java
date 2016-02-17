@@ -26,14 +26,14 @@ public interface IParamSettings {
 	/*
 	 * Cpu NV index
 	 */
-	// Cpu type start 199 end 208
-	public static final int INDEX_CPU_TYPE = NV_OFFSET + 199;
-	// Cpu core start 209 end 218
-	public static final int INDEX_CPU_CORE = NV_OFFSET + 209;
-	// Cpu max freq start 219 end 228
-	public static final int INDEX_CPU_MAX_FREQ = NV_OFFSET + 219;
-	// Cpu min freq start 229 end 238
-	public static final int INDEX_CPU_MIN_FREQ = NV_OFFSET + 229;
+	// Cpu type start 261 end 270
+	public static final int INDEX_CPU_TYPE = NV_OFFSET + 113;
+	// Cpu core start 271 end 280
+	public static final int INDEX_CPU_CORE = NV_OFFSET + 123;
+	// Cpu max freq start 281 end 290
+	public static final int INDEX_CPU_MAX_FREQ = NV_OFFSET + 133;
+	// Cpu min freq start 291 end 300
+	public static final int INDEX_CPU_MIN_FREQ = NV_OFFSET + 143;
 
 	/*
 	 * Memory system properties key
@@ -44,10 +44,10 @@ public interface IParamSettings {
 	/*
 	 * Memory NV index
 	 */
-	// Max RAM start 239 end 248
-	public static final int INDEX_MAX_RAM = NV_OFFSET + 239;
-	// Min RAM start 249 end 258
-	public static final int INDEX_MIN_RAM = NV_OFFSET + 249;
+	// Max RAM start 301 end 310
+	public static final int INDEX_MAX_RAM = NV_OFFSET + 153;
+	// Min RAM start 311 end 320
+	public static final int INDEX_MIN_RAM = NV_OFFSET + 163;
 
 	/*
 	 * Storage system properties key
@@ -58,10 +58,10 @@ public interface IParamSettings {
 	/*
 	 * Storage NV index
 	 */
-	// System storage start 259 end 268
-	public static final int INDEX_SYSTEM_STORAGE = NV_OFFSET + 259;
-	// Internal storage start 269 end 278
-	public static final int INDEX_INTERNAL_STORAGE = NV_OFFSET + 269;
+	// System storage start 321 end 330
+	public static final int INDEX_SYSTEM_STORAGE = NV_OFFSET + 173;
+	// Internal storage start 331 end 340
+	public static final int INDEX_INTERNAL_STORAGE = NV_OFFSET + 183;
 
 	/*
 	 * Lcd system properties key
@@ -73,12 +73,12 @@ public interface IParamSettings {
 	/*
 	 * Lcd NV index
 	 */
-	// Lcd width start 99 end 108
-	public static final int INDEX_LCD_WIDTH = NV_OFFSET + 99;
-	// Lcd height start 109 end 118
-	public static final int INDEX_LCD_HEIGHT = NV_OFFSET + 109;
-	// Lcd density start 119 end 128
-	public static final int INDEX_LCD_DENSITY = NV_OFFSET + 119;
+	// Lcd width start 341 end 350
+	public static final int INDEX_LCD_WIDTH = NV_OFFSET + 193;
+	// Lcd height start 351 end 360
+	public static final int INDEX_LCD_HEIGHT = NV_OFFSET + 203;
+	// Lcd density start 361 end 370
+	public static final int INDEX_LCD_DENSITY = NV_OFFSET + 213;
 
 	/*
 	 * Camera system properties key
@@ -94,20 +94,20 @@ public interface IParamSettings {
 	/*
 	 * Camera NV index
 	 */
-	// Front camera pixel start 129 end 138
-	public static final int INDEX_FRONT_CAMERA_PIXEL = NV_OFFSET + 129;
-	// Front camera width pixel start 139 end 148
-	public static final int INDEX_FRONT_CAMERA_WIDTH_PIXEL = NV_OFFSET + 139;
-	// Front camera height pixel start 149 end 158;
-	public static final int INDEX_FRONT_CAMERA_HEIGHT_PIXEL = NV_OFFSET + 149;
-	// Back camera pixel start 159 end 168
-	public static final int INDEX_BACK_CAMERA_PIXEL = NV_OFFSET + 159;
-	// Back camera width pixel start 169 end 178
-	public static final int INDEX_BACK_CAMERA_WIDTH_PIXEL = NV_OFFSET + 169;
-	// Back camera height pixel start 179 end 188
-	public static final int INDEX_BACK_CAMERA_HEIGHT_PIXEL = NV_OFFSET + 179;
-	// Video quality start 189 end 198
-	public static final int INDEX_VIDEO_QUALITY = NV_OFFSET + 189;
+	// Front camera pixel start 371 end 380
+	public static final int INDEX_FRONT_CAMERA_PIXEL = NV_OFFSET + 223;
+	// Front camera width pixel start 381 end 390
+	public static final int INDEX_FRONT_CAMERA_WIDTH_PIXEL = NV_OFFSET + 233;
+	// Front camera height pixel start 391 end 400;
+	public static final int INDEX_FRONT_CAMERA_HEIGHT_PIXEL = NV_OFFSET + 243;
+	// Back camera pixel start 401 end 410
+	public static final int INDEX_BACK_CAMERA_PIXEL = NV_OFFSET + 253;
+	// Back camera width pixel start 411 end 420
+	public static final int INDEX_BACK_CAMERA_WIDTH_PIXEL = NV_OFFSET + 263;
+	// Back camera height pixel start 421 end 430
+	public static final int INDEX_BACK_CAMERA_HEIGHT_PIXEL = NV_OFFSET + 273;
+	// Video quality start 431 end 440
+	public static final int INDEX_VIDEO_QUALITY = NV_OFFSET + 283;
 
 	/*
 	 * Other system properties key
@@ -119,12 +119,12 @@ public interface IParamSettings {
 	/*
 	 * Other NV index
 	 */
-	// Support all sensor start 279 end 288
-	public static final int INDEX_SUPPORT_ALL_SENSOR = NV_OFFSET + 279;
-	// Support root start 289 end 298
-	public static final int INDEX_SUPPORT_ROOT = NV_OFFSET + 289;
-	// Benchmark start 299 end 308
-	public static final int INDEX_BENCHMARK = NV_OFFSET + 299;
+	// Support all sensor start 441 end 450
+	public static final int INDEX_SUPPORT_ALL_SENSOR = NV_OFFSET + 293;
+	// Support root start 451 end 460
+	public static final int INDEX_SUPPORT_ROOT = NV_OFFSET + 303;
+	// Benchmark start 461 end 470
+	public static final int INDEX_BENCHMARK = NV_OFFSET + 313;
 
 	/*
 	 * System properties back up key
@@ -151,97 +151,52 @@ public interface IParamSettings {
 	public static final String KEY_SUPPORT_ROOT_BACKUP = "ro.sys.tt.root_b";
 	public static final String KEY_BENCHMARK_BACKUP = "ro.sys.tt.scores_b";
 
-	public String getParam(String key, String def);
-
-	public void setParam(String key, String value);
-
-	public Cpu getCpuParam();
-
-	public void setCpuParam(Cpu cpu);
-
-	public void setCpuParam(String type, String core, String minFreq, String maxFreq);
-
-	public Memory getMemoryParam();
-
-	public void setMemoryParam(Memory memory);
-
-	public void setMemoryParam(String minRam, String maxRam);
-
-	public Storage getStorageParam();
-
-	public void setStoargeParam(Storage storage);
-
-	public void setStorageParam(String rom, String internal);
-
-	public Lcd getLcdParam();
-
-	public void setLcdParam(Lcd lcd);
-
-	public void setLcdParam(String width, String height, String density);
-
-	public Camera getCameraParam();
-
-	public void setCameraParam(Camera camera);
-
-	public void setCameraParam(String front, String frontWidth, String frontHeight, String back, String backWidth,
+	String getParam(String key, String def);
+	void setParam(String key, String value);
+	Cpu getCpuParam();
+	void setCpuParam(Cpu cpu);
+	void setCpuParam(String type, String core, String minFreq, String maxFreq);
+	Memory getMemoryParam();
+	void setMemoryParam(Memory memory);
+	void setMemoryParam(String minRam, String maxRam);
+	Storage getStorageParam();
+	void setStoargeParam(Storage storage);
+	void setStorageParam(String rom, String internal);
+	Lcd getLcdParam();
+	void setLcdParam(Lcd lcd);
+	void setLcdParam(String width, String height, String density);
+	Camera getCameraParam();
+	void setCameraParam(Camera camera);
+	void setCameraParam(String front, String frontWidth, String frontHeight, String back, String backWidth,
 			String backHeight, String video);
-
-	public Other getOtherParam();
-
-	public void setOtherParam(Other other);
-
-	public void setOtherParam(String sensor, String root, String benchmark);
-
-	public boolean writeCpuParamToNV(Cpu cpu);
-
-	public boolean writeCpuParamToNV(String type, String core, String minFreq, String maxFreq);
-
-	public boolean writeMemoryParamToNV(Memory memory);
-
-	public boolean writeMemoryParamToNV(String minRam, String maxRam);
-
-	public boolean writeStorageParamToNV(Storage storage);
-
-	public boolean writeStorageParamToNV(String rom, String internal);
-
-	public boolean writeLcdParamToNV(Lcd lcd);
-
-	public boolean writeLcdParamToNV(String width, String height, String density);
-
-	public boolean writeCameraParamToNV(Camera camera);
-
-	public boolean writeCameraParamToNV(String front, String frontWidth, String frontHeight, String back,
+	Other getOtherParam();
+	void setOtherParam(Other other);
+	void setOtherParam(String sensor, String root, String benchmark);
+	boolean writeCpuParamToNV(Cpu cpu);
+	boolean writeCpuParamToNV(String type, String core, String minFreq, String maxFreq);
+	boolean writeMemoryParamToNV(Memory memory);
+	boolean writeMemoryParamToNV(String minRam, String maxRam);
+	boolean writeStorageParamToNV(Storage storage);
+	boolean writeStorageParamToNV(String rom, String internal);
+	boolean writeLcdParamToNV(Lcd lcd);
+	boolean writeLcdParamToNV(String width, String height, String density);
+	boolean writeCameraParamToNV(Camera camera);
+	boolean writeCameraParamToNV(String front, String frontWidth, String frontHeight, String back,
 			String backWidth, String backHeight, String video);
-
-	public boolean writeOtherParamToNV(Other other);
-
-	public boolean writeOtherParamToNV(String sensor, String root, String benchmark);
-
-	public Cpu getCpuParamFromNV();
-
-	public Memory getMemoryParamFromNV();
-
-	public Storage getStorageParamFromNV();
-
-	public Lcd getLcdParamFromNV();
-
-	public Camera getCameraParamFromNV();
-
-	public Other getOtherParamFromNV();
-
-	public boolean resetAllParamToFactory();
-
-	public boolean resetCpuParamToFactory();
-
-	public boolean resetMemoryParamToFactory();
-
-	public boolean resetStorageParamToFactory();
-
-	public boolean resetLcdParamToFactory();
-
-	public boolean resetCameraParamToFactory();
-
-	public boolean resetOtherParamToFactory();
-
-	public void printNvValue();
+	boolean writeOtherParamToNV(Other other);
+	boolean writeOtherParamToNV(String sensor, String root, String benchmark);
+	Cpu getCpuParamFromNV();
+	Memory getMemoryParamFromNV();
+	Storage getStorageParamFromNV();
+	Lcd getLcdParamFromNV();
+	Camera getCameraParamFromNV();
+	Other getOtherParamFromNV();
+	boolean resetAllParamToFactory();
+	boolean resetCpuParamToFactory();
+	boolean resetMemoryParamToFactory();
+	boolean resetStorageParamToFactory();
+	boolean resetLcdParamToFactory();
+	boolean resetCameraParamToFactory();
+	boolean resetOtherParamToFactory();
+	void printNvValue();
 }
